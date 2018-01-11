@@ -1,6 +1,6 @@
 {
     "name": "djgadd/docker-heroku-php",
-    "description": "Dockerised Heroku stack using the PHP buildpack.",
+    "description": "Dockerised Heroku stack using the PHP buildpack for local development.",
     "type": "project",
     "keywords": [
         "docker",
