@@ -1,0 +1,9 @@
+**/*
+!auth.json
+!composer.json
+!composer.lock
+!Procfile
+!support/foreman.bash
+!support/heroku-build.bash
+!support/heroku.bash
+!support/strip-composer-packages.py

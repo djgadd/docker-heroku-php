@@ -1,0 +1,23 @@
+{
+    "name": "djgadd/docker-heroku-php",
+    "description": "Dockerised Heroku stack using the PHP buildpack.",
+    "type": "project",
+    "keywords": [
+        "docker",
+        "heroku",
+        "php"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "~7.2.0",
+        "ext-imagick": "*"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

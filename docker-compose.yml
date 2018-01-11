@@ -1,0 +1,16 @@
+version: "3"
+services:
+    # heroku:
+    #     image: heroku/heroku:16-build
+    #     volumes:
+    #         - ./:/app
+
+    heroku:
+        build:
+            context: .
+            dockerfile: ./support/Dockerfile
+        env_file: .env
+        ports:
+            - "5000:5000"
+        volumes:
+            - ./:/var/www
